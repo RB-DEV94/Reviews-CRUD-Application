@@ -1,0 +1,49 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Blog Application</title>
+
+    <link rel="stylesheet" media="screen" href="/css/com.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<form action="#" class="col card p-3 mb-5"  th:action="@{/savePost}"  th:object="${post}"  method="post">
+    <img width="340px" th:src="@{images/bbgg.jpg}" align="right" />
+    <div th:if="${param.success}">
+        <div class="alert alert-info">
+            You have successfully added your post!
+        </div>
+    </div>
+<div class="form-group" align="center">
+    <label for="title" >Title</label>
+    <input id="title" placeholder="Enter Title"  th:field="*{title}" required type="text"
+           class="form-control" style="width:350px;"/>
+</div>
+<div class="form-group" align="center">
+    <label for="description">Description</label>
+    <textarea id="description" placeholder="Description" th:field="*{description}" required type="text"
+           class="form-control" style="width:350px;height:150px;"/>
+</div>
+<div class="form-group" align="center">
+    <label for="content" align="right">Content</label>
+    <textarea id="content" placeholder="Content" th:field="*{content}"  required type="text"
+           class="form-control" style="width:350px;" />
+</div>
+<div align="center">
+<input type="submit" class="btn btn-primary" value="Create Post" style="width:350px;" align="center">
+
+</div>
+
+</form>
+
+</body>
+</html>
