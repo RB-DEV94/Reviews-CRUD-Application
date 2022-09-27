@@ -27,4 +27,4 @@ Languages : Java
 
 Framework : Spring Boot , Spring Hibernate , Spring JPA , Spring Security
 
-FrontEnd : Thymleaf
+Frontend : Thymleaf
