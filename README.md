@@ -15,6 +15,7 @@ Login and Registeration System with Spring Role Based Security
 
 <img width="1512" alt="Screen Shot 2022-09-27 at 12 34 31 PM" src="https://user-images.githubusercontent.com/72269385/192598495-357dd5b4-8d49-4e19-9a9e-e5593fac6eaf.png">
 
+Admin page for deleting and updating posts
 <img width="1509" alt="Screen Shot 2022-09-27 at 12 35 23 PM" src="https://user-images.githubusercontent.com/72269385/192598528-e2e45ff7-5f09-43d9-8a54-bbc67b8301d4.png">
 
 
