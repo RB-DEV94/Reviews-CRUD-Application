@@ -75,6 +75,7 @@ public class AuthController {
 
         final String url = request.getRequestURI();
         System.out.println(url);
+        //admin or user
         if (url.contains("admin")) {
             System.out.println("hello admin");
             userService.saveAdmin(userDto);
