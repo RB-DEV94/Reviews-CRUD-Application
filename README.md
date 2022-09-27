@@ -21,7 +21,7 @@ Admin page for deleting and updating posts
 <img width="1509" alt="Screen Shot 2022-09-27 at 12 35 23 PM" src="https://user-images.githubusercontent.com/72269385/192598528-e2e45ff7-5f09-43d9-8a54-bbc67b8301d4.png">
 
 
-Database : Postgres
+Database : PostgreSQL
 
 Languages : Java
 
